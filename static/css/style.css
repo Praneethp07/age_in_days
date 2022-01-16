@@ -1,0 +1,43 @@
+.container-1 {
+   
+    margin:auto;
+    border: 1px solid black;
+    padding: 10px;
+    width: 75%;
+    height:80%;
+    text-align: center;
+}
+    
+  .flex-box-container-1 {
+  
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    border:1px solid black;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.flex-box-container-1 div {
+
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+h1{
+    font-style: italic;
+    text-align: center;
+ 
+}
+
+/* .flex-box-container-2 div{
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+} */
