@@ -1,10 +1,10 @@
 .container-1 {
    
     margin:auto;
-    border: 1px solid black;
-    padding: 10px;
+    /* border: 1px solid black; */
+    padding: 10%;
     width: 75%;
-    height:80%;
+    height:100%;
     text-align: center;
 }
     
@@ -13,7 +13,7 @@
     margin: 0 auto;
     display: flex;
     padding: 10px;
-    border:1px solid black;
+    /* border:1px solid black; */
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: space-around;
@@ -21,7 +21,7 @@
 .flex-box-container-1 div {
 
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     flex-wrap: wrap;
     align-items: center;
@@ -33,11 +33,71 @@ h1{
     text-align: center;
  
 }
-
-/* .flex-box-container-2 div{
-    margin: 0 auto;
+.headder{
+    padding: 20px;
+    border:2px solid black;
+    margin-right:12%;
+    margin-left: 12%;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.input{
+    padding:4px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.input-box{
+    padding:20px;
     border: 1px solid black;
-    padding: 10px;
-    flex-wrap: wrap;
-    align-items: center;
-} */
+    border-radius: 10px;
+    box-shadow:8px 14px 25px -7px rgba(0,0,0,0.74);
+    background: linear-gradient(#e66465, #9198e5);
+    
+
+}
+#resetbtn{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 110px;
+    height: 40px;
+    background-color:rgb(199, 100, 230);
+    color: white;
+    /* box-shadow:8px 1px 24px 4px rgba(0,0,0,0.38); */
+    /* opacity: 0.5; */
+}
+#clkmebtn{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 110px;
+    height: 40px;
+    background-color:rgb(231, 98, 127);
+    color: white;
+    /* box-shadow:8px 1px 24px 4px rgba(0,0,0,0.38); */
+    /* opacity: 0.5; */
+}
+button:hover {
+
+	font-size: 15px;
+	transition: 500ms;
+}
+.rebtn:hover {
+	color: #b971f0;
+	text-shadow: 0px 0px 10px #b971f0;
+}
+.click:hover {
+	color: #8471f0;
+	text-shadow: 0px 0px 10px #b971f0;
+}
+button:focus {
+	outline: none;
+}
+@media screen {
+    .click:hover{
+        rotate: 180;
+        overflow-x:unset;
+    }
+}
