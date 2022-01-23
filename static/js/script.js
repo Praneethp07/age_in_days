@@ -6,7 +6,7 @@ function ageindays()
      year = prompt("ENTER YOUR YEAR OF BIRTH:");
      date = prompt("ENTER YOUR DATE OF BIRTH:");
      month = prompt("ENTER MONTH:")
-     if(year == null)
+     if(year == 0)
      { 
         var h1 = document.createElement('h1');
         var ans = document.createTextNode("You are dead");
