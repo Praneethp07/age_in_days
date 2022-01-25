@@ -1,7 +1,6 @@
 .container-1 {
    
     margin:auto;
-    /* border: 1px solid black; */
     padding: 10%;
     width: 75%;
     height:100%;
@@ -29,13 +28,14 @@
     
 }
 h1{
-    font-style: italic;
+    font-style: bold;
     text-align: center;
  
 }
 .headder{
     padding: 20px;
-    border:2px solid black;
+    /* border:2px solid black; */
+    font-family: 'Pacifico', cursive;
     margin-right:12%;
     margin-left: 12%;
     text-align: center;

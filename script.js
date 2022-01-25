@@ -16,8 +16,8 @@ function ageindays()
      }
      else
      {
-    var birth = document.getElementById('year');
-    var days = (2022 - birth)*365;
+         var rem = (month*30-date);
+    var days = (2022 - year)*365-rem;
     var h1 = document.createElement('h1');
     var ans = document.createTextNode("you are "+days+" days old!");
     h1.setAttribute('id',ageindays);
